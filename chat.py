@@ -6,7 +6,8 @@ from llm import get_ai_response
 st.set_page_config(page_title="소득세 챗봇", page_icon="🐻")
 
 st.title("🐻 소득세 챗봇")
-st.caption("소득세에 관련된 모든것을 답해드립니다! Ex) 연봉 5천만원의 직장인의 소득세는?")
+st.caption("소득세에 관련된 모든것을 답해드립니다!")
+st.caption("Ex) 연봉 5천만원의 직장인의 소득세는?")
 
 load_dotenv()
 
